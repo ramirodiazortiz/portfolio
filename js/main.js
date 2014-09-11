@@ -337,3 +337,17 @@ $(".open_fancybox_unf").click(function() {
     return false;
     
 });
+$(".open_fancybox_dcbd").click(function() {
+    
+    $.fancybox.open([
+        {
+            href : 'img/portfolio/dcbd/0.png',                
+            title : 'Digital CBD'
+        }
+    ], {
+        padding : 0
+    });
+    
+    return false;
+    
+});
