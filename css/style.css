@@ -432,7 +432,7 @@ h1 a.navbar-brand {
 
 section.featured {
 	padding: 200px 0 60px;
-	background: #70B9B0;
+	background: url(../img/parallax/img1.jpg) no-repeat top left;
 	color: #fdfdfd;
 }
 
