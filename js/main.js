@@ -351,3 +351,5 @@ $(".open_fancybox_dcbd").click(function() {
     return false;
     
 });
+
+$('.current').trigger('click');
