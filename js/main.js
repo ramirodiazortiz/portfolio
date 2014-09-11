@@ -17,6 +17,7 @@
 
 	
 	// portfolio
+    setTimeout(function() {
     if($('.isotopeWrapper').length){
 
         var $container = $('.isotopeWrapper');
@@ -60,10 +61,10 @@
                     columnWidth: $container.width() / $resize
                 }
             });
-        });
-        
+        });    
+    }  
 
-}  
+}, 1000);
 
 
 	// fancybox
